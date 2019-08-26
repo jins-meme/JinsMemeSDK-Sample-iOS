@@ -50,7 +50,7 @@ class ViewController: UIViewController, MEMELibDelegate {
             connectionStatusLabel.text = "Connected"
             connectionStatusLabel.backgroundColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
             
-            connectButton.setTitle("Disconnect", for: UIControlState.normal)
+            connectButton.setTitle("Disconnect", for: .normal)
             
             eyeImageView.alpha = 1.0
             bodyImageView.alpha = 1.0
@@ -59,7 +59,7 @@ class ViewController: UIViewController, MEMELibDelegate {
             connectionStatusLabel.text = "Not connected"
             connectionStatusLabel.backgroundColor = #colorLiteral(red: 0.8549019608, green: 0, blue: 0.1411764706, alpha: 1)
             
-            connectButton.setTitle("Connect", for: UIControlState.normal)
+            connectButton.setTitle("Connect", for: .normal)
             
             eyeImageView.alpha = 0.2
             bodyImageView.alpha = 0.2
@@ -91,8 +91,8 @@ class ViewController: UIViewController, MEMELibDelegate {
         
         updateView()
         
-        let alertController = UIAlertController(title: "DISCONNECTED", message: nil, preferredStyle: UIAlertControllerStyle.alert)
-        let action = UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler:nil)
+        let alertController = UIAlertController(title: "DISCONNECTED", message: nil, preferredStyle: .alert)
+        let action = UIAlertAction(title: "OK", style: .default, handler:nil)
         alertController.addAction(action)
         self.present(alertController, animated: true, completion: nil)
     }

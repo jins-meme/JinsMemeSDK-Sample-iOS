@@ -21,6 +21,36 @@ let appId = "appId"
 let appSecret = "appSecret"
 ```
 
+## 使い方
+
+### JINS MEME と接続する
+
+![トップ画面](https://github.com/jins-meme/JinsMemeSDK-Sample-iOS/blob/master/README_Images/1.jpg)
+
+JINS MEMEと接続するために接続画面を開きます。
+
+画面下にある「Connect」ボタンを押してください。
+
+![接続画面](https://github.com/jins-meme/JinsMemeSDK-Sample-iOS/blob/master/README_Images/2.jpg)
+
+接続画面が開いたらJINS MEMEをアドバタイズモードにします。
+
+その後、接続画面右上にある「scan」ボタンを押してください。
+
+scanに成功すると画像のようにJINS MEMEが表示されます。
+
+接続したいJINE MEMEを選びタップすると接続することができます。
+
+
+### JINS MEME からのデータを確認する
+
+![トップ画面](https://github.com/jins-meme/JinsMemeSDK-Sample-iOS/blob/master/README_Images/3.jpg)
+
+JINE MEMEと接続が完了するとトップ画面に戻ります。
+
+接続が完了したJINS MEMEを着け、瞬きしたり、頭を動かしてみたりしてください。
+
+JINS MEMEから取得したデータを元にトップ画面の画像変化するようになります。
 
 ## License
 MIT
